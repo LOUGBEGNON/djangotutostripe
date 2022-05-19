@@ -1,0 +1,54 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# database & logs
+*.db
+*.sqlite3
+*.log
+logs
+
+# venv
+env
+venv
+
+# other
+.DS_Store
+
+# javascript
+package-lock.json
+
+staticfiles/*
+!staticfiles/.gitkeep
+.vscode/symbols.json
+
+core/static/assets/node_modules
+core/static/assets/yarn.lock
+core/static/assets/.temp
+
+.idea/*
+
+## django migrations
+#**/migrations/**
+#!**/migrations
+#!**/migrations/__init__.py
+
+# project files to not commit
+core/settings/environments/local.py
+tests/test_crypt/number1.encrypted
+media/uploads/*
+
+# env file that could contain sensible info
+.env
+
+celerybeat-schedule
+
+#Temporary IOS files
+Thumbs.db
+
+#Visual Studio Code
+.vscode
